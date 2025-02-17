@@ -1,32 +1,33 @@
 💡 Overview
-HERSHIELD is an innovative, AI-powered surveillance solution designed to enhance women's safety through real-time monitoring of CCTV feeds. The system detects risky situations, like being alone at night or surrounded by men, and triggers instant alerts to ensure rapid police response.
+HERSHIELD is an AI-driven surveillance solution designed to enhance women’s safety by monitoring CCTV feeds in real-time. It detects risky situations, such as women being alone at night or in the presence of multiple men, and triggers instant alerts to ensure swift police response.
 
 🔍 Problem Statement
-Women's safety in public spaces is a significant issue today. HERSHIELD addresses this by combining advanced AI algorithms with continuous CCTV analysis, empowering authorities to act before harm occurs.
+Women’s safety in public spaces remains a pressing concern. HERSHIELD combines advanced AI algorithms with continuous CCTV analysis, allowing authorities to prevent incidents before they occur.
 
 🚀 Features
-🎥 24/7 Video Monitoring: Continuously monitors CCTV feeds for risk detection
-👩‍🦰 Gender Classification: Utilizes RCNN to identify individuals' gender and assess risk factors
-⚠️ Real-Time Threat Detection: Tracks male-to-female ratios, especially at night
-📊 Risk Score Calculation: Generates risk scores based on time, location, and environmental factors
-🔥 Hotspot Identification: Pinpoints high-risk zones through historical and real-time data
-✋ Gesture Recognition: Detects distress signals such as frantic waving or SOS gestures
-🚨 Instant Alerts: Sends immediate notifications to authorities
+✅ 🎥 24/7 Video Monitoring – Continuous surveillance for risk detection
+✅ 👩‍🦰 Gender Classification – RCNN-based gender identification
+✅ ⚠️ Real-Time Threat Detection – Monitors male-to-female ratio, especially at night
+✅ 📊 Risk Score Calculation – Assesses risk using time, location, and environmental factors
+✅ 🔥 Hotspot Identification – Identifies high-risk areas via historical & real-time data
+✅ ✋ Gesture Recognition – Detects distress signals like frantic waving or SOS gestures
+✅ 🚨 Instant Alerts – Sends automatic notifications to authorities in case of threats
+
 🛠️ Tech Stack
-Python 🐍: Primary language
-PyTorch 🔥: Neural network training and real-time model updates
-Mobile VNet 🖼️: Detailed feature maps from CCTV frames
-Finetuned YOLO 👤: Gender-based classification
-Vision Transformers (ViTs) ⚡: High-level feature extraction
-MediaPipe 🎥: Multimodal ML pipelines
-CUDA-Enabled GPUs ⚙️: Accelerated video processing
+Python 🐍 – Core development language
+PyTorch 🔥 – Model training and real-time updates
+Mobile VNet 🖼️ – Extracts detailed feature maps from CCTV frames
+Fine-Tuned YOLO 👤 – Gender classification
+Vision Transformers (ViTs) ⚡ – High-level feature extraction
+MediaPipe 🎥 – Multimodal ML pipelines for gesture recognition
+CUDA-Enabled GPUs ⚙️ – Accelerated video processing
 ⚙️ How It Works
-Frame Preprocessing: CCTV frames are resized and normalized (640x640x3)
-Feature Extraction: CSP-Darknet 53 generates detailed feature maps
-Gender Detection: RCNN classifies individuals with bounding boxes
-Risk Assessment: Calculates risk scores based on multiple factors
-Hotspot Detection: Tracks potential danger zones
-Alerting System: Sends immediate notifications for detected threats
+1️⃣ Frame Preprocessing – Resizes & normalizes CCTV frames (640×640×3)
+2️⃣ Feature Extraction – CSP-Darknet 53 generates detailed feature maps
+3️⃣ Gender Detection – RCNN classifies individuals with bounding boxes
+4️⃣ Risk Assessment – Computes risk scores based on multiple factors
+5️⃣ Hotspot Detection – Identifies high-risk areas
+6️⃣ Alerting System – Sends real-time alerts for detected threats
 
 ![image](https://github.com/user-attachments/assets/fd81c1cc-359f-4368-98f8-b96e54b5d861)
 
