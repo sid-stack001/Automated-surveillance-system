@@ -1,8 +1,8 @@
 ## 📌 Overview  
-HERSHIELD is an innovative AI-driven surveillance system designed to enhance **women’s safety** through **real-time CCTV monitoring**. It detects **potential threats**, such as a woman being alone at night or surrounded by multiple men, and **triggers instant alerts** for a rapid response.  
+This project is an innovative AI-driven surveillance system designed to enhance **women’s safety** through **real-time CCTV monitoring**. It detects **potential threats**, such as a woman being alone at night or surrounded by multiple men, and **triggers instant alerts** for a rapid response.  
 
 ## 🔍 Problem Statement  
-Women’s safety in public spaces is a growing concern. HERSHIELD addresses this issue by leveraging **AI-powered analysis of CCTV feeds**, allowing authorities to take **preventive action before incidents occur**.  
+Women’s safety in public spaces is a growing concern. we address this issue by leveraging **AI-powered analysis of CCTV feeds**, allowing authorities to take **preventive action before incidents occur**.  
 
 ## 🚀 Features  
 - 🎥 **24/7 Video Monitoring** – Continuous surveillance for threat detection  
